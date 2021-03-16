@@ -12,7 +12,7 @@ def worldtime():
     currency_str_value = input("请输入要查询的城市(例如：芝加哥):")
     city1 = currency_str_value
     body = {
-        "key": "",
+        "key": "4108a26018b10ff2e99914a1b74d518e",
         "city": city1}
     headers = {'content-type': "application/x-www-form-urlencoded"}
     response = requests.post(url, data=body, headers=headers)
