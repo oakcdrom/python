@@ -12,3 +12,5 @@ douban.py      #获取豆瓣top250电影列表
 trans.py       #货币转换脚本
 
 time.py        #查询时区和当前时间
+
+timezone文件夹      #新增通过web端展示查询时区以及当前时间
