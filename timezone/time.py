@@ -25,7 +25,7 @@ def result():
         citys = form.citys.data
         url = 'http://api.tianapi.com/txapi/worldtime/index'
         body = {
-            "key": "4108a26018b10ff2e99914a1b74d518e",
+            "key": " ",   #需要自己去申请
             "city": citys}
         headers = {'content-type': "application/x-www-form-urlencoded"}
         response = requests.post(url, data=body, headers=headers)

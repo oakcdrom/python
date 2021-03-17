@@ -13,7 +13,7 @@ def usd():
         unit = currency_str_value[-3:].upper()  # 第一次判断
         money = re.findall(r"\d+\.?\d*",currency_str_value)
         body = {
-            "key": "your_key",
+            "key": "your_key",#需要自己去申请
             "fromcoin":unit,
             "tocoin":"CNY",
             "money":money}
